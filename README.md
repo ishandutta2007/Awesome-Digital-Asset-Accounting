@@ -56,7 +56,7 @@ Below is a comparative breakdown of commercial enterprise subledgers and digital
 
 🔓 **Privacy-First & Self-Hosted Open Source**: Self-hosted solutions enable individuals, developers, and privacy-conscious firms to process wallet histories locally without exposing private financial keys or transaction data to third-party cloud servers.
 
-Below are top open-source crypto tax calculators, portfolio trackers, and subledgers, sorted by **GitHub Stars_Count (Descending)**:
+Below are top open-source crypto tax calculators, portfolio trackers, and subledgers, sorted by **GitHub_Stars_Count (Descending)**:
 
 | 🚀 Repository | ⭐️ GitHub_Stars_Badge | ⚡ Description & Core Capabilities |
 | :--- | :--- | :--- |
