@@ -8,6 +8,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Digital-Asset-Accounting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Digital-Asset-Accounting?style=flat-square&logo=github" alt="GitHub Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Digital-Asset-Accounting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Digital-Asset-Accounting?style=flat-square&logo=github" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Digital-Asset-Accounting/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ## 💼 Top Digital Asset Accounting & Crypto Tax Ecosystem
@@ -25,6 +26,8 @@ This repository tracks notable enterprise **SaaS platforms** and **open-source r
 - [🛠️ Integration & Frameworks](#️-integration--frameworks)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [📜 Disclaimer](#-disclaimer)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 
 ---
 
@@ -99,6 +102,29 @@ Contributions are warmly welcome! To add or update an entry:
 - This repository is a **community-curated index** for informational and educational purposes only.
 - Digital asset accounting software handles sensitive financial data and must adhere to regional tax laws (IRS, HMRC, ATO, CARF, DAC8), GAAP/IFRS standards, and anti-money laundering (AML) regulatory compliance.
 - Always consult a certified CPA or qualified tax attorney before submitting official tax disclosures or financial statements.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using **Awesome Digital Asset Accounting**! If this curated resource has helped your web3 finance team, CPA practice, DAO, or accounting platform research:
+
+- ⭐ **Star** this repository on GitHub to help others discover it.
+- 🍴 **Fork** and contribute new platforms or open-source tax tools.
+- 📢 **Share** this list with fellow crypto accountants, CFOs, and finance developers.
+- ☕ **Sponsor / Buy me a coffee**: If you'd like to support the ongoing maintenance of this awesome list, visit the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-Buy%20Me%20a%20Coffee-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor Dashboard"/>
+  </a>
+</p>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Digital-Asset-Accounting&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Digital-Asset-Accounting&type=date&legend=top-left)
 
 ---
 
