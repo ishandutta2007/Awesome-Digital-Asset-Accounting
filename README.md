@@ -1,215 +1,107 @@
-# Awesome-Digital-Asset-Accounting
+# 📊 Awesome Digital Asset Accounting
 
-## Top Digital Asset Accounting Ecosystem
+![Awesome Digital Asset Accounting Banner](assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Asset-Accounting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Digital-Asset-Accounting?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Asset-Accounting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Digital-Asset-Accounting?style=flat-square&logo=github" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Asset-Accounting/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a>
+</p>
 
+## 💼 Top Digital Asset Accounting & Crypto Tax Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+> **Curated List of SaaS Platforms & Open-Source Projects for Digital Asset Accounting, Crypto Subledgers, Cost Basis Tracking & Web3 Financial Compliance**  
+> *Last updated: October 2026*
 
-*Focused on Crypto Subledgers, Cost Basis Tracking & Digital Asset Tax Reporting*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Digital Asset Accounting**. These tools help businesses, accountants, and tax professionals reconcile crypto transactions, calculate cost basis and gains/losses, and sync digital asset activity into traditional general ledgers like QuickBooks, NetSuite, and Xero.
-
-
-
-**Examples** include Cryptio, Bitwave, Ledgible, Integral, SoftLedger, TaxBit, Lukka, Entendre Finance, CoinTracker Enterprise, and Gilded (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source ecosystem for crypto accounting is anchored by **Rotki** (privacy-first portfolio and tax tool), **BittyTax** (comprehensive tax calculator), and **RP2** (privacy-focused tax reporting), with strong coverage in DeFi tax calculation and multi-exchange portfolio tracking.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Cryptio](https://cryptio.co/)**  
-
-  Enterprise-grade crypto accounting and reporting platform with $70M total funding, processing over $3 trillion in transaction volume across 450+ enterprise clients . Compliance controls co-designed with Big Four auditors, with ERP integration breadth covering NetSuite, SAP, Xero, QuickBooks, and Oracle . Notable clients include Circle, Gemini, MetaMask, and the Government of El Salvador .
-
-
-
-- **[Bitwave](https://www.bitwave.io/)**  
-
-  Enterprise crypto accounting platform with full cost basis method support (FIFO, LIFO, HIFO, Specific ID) . Integrates with NetSuite, Sage Intacct, and other enterprise ERPs for institutional-scale digital asset reporting .
-
-
-
-- **[Ledgible](https://ledgible.io/)**  
-
-  Crypto tax and accounting platform focused on the US CPA and accounting firm market, recognized by TechDogs for "Best Customer Support" in 2026 . September 2025 partnership with Thomson Reuters integrates digital asset reporting into ONESOURCE Tax Information Reporting, directly addressing IRS Form 1099-DA requirements . Connects to major tax preparation software (UltraTax CS, Lacerte, Drake Tax, CCH Axcess) . SOC 1 & 2 Type 2 certified .
-
-
-
-- **[Integral](https://integral.finance/)**  
-
-  Crypto accounting and treasury management platform for enterprises and DAOs.
-
-
-
-- **[SoftLedger](https://softledger.com/)**  
-
-  Cloud-native general ledger with a native digital asset module — not a crypto subledger syncing to an external GL . Every plan includes unlimited entities with nested hierarchies and real-time consolidated reporting. CryptoSync feature is asset-agnostic. Pricing from $750/month (Digital Assets: $1,375/month), the most transparently priced enterprise option .
-
-
-
-- **[TaxBit](https://taxbit.com/)**  
-
-  Enterprise crypto tax and accounting platform valued at $1.33B, dominating the exchange compliance segment . Powers tax reporting for PayPal and Gemini, connecting to 500+ exchanges, wallets, and blockchains. Pioneered the Cost Basis Interchange standard enabling cross-broker basis transfer. Expanded to support CARF and DAC8 compliance across 70+ jurisdictions in 2025 .
-
-
-
-- **[Lukka](https://lukka.tech/)**  
-
-  Institutional crypto data and accounting platform valued at $1.3B, tracking 1.5M+ assets and 17,000+ Virtual Asset Service Providers . Pricing data powers institutional indices including S&P Dow Jones. Acquired blockchain analytics firm Coinfirm in May 2024, adding VASP risk scoring and sanctions screening . Holds SOC 1 Type 2, SOC 2 Type 2, and ISO 27001 certifications — the most heavily credentialed platform in the space .
-
-
-
-- **[Entendre Finance](https://www.entendre.finance/)**  
-
-  AI-powered crypto accounting automation platform for enterprises.
-
-
-
-- **[CoinTracker Enterprise](https://www.cointracker.io/)**  
-
-  Crypto tax and portfolio tracking platform with enterprise offering for businesses and institutions.
-
-
-
-- **[Gilded](https://gilded.finance/)**  
-
-  CPA-built crypto accounting platform focused on QuickBooks integration, rated #1 in the QuickBooks App Store . Automatically calculates historical spot prices, cost basis, and taxable gain/loss for each transaction . Bill Pay feature adds context to outgoing crypto payments . Supports Bitcoin, BSC, Ethereum, Polygon, and Ronin blockchains .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Rotki](https://github.com/rotki/rotki)**  
-
-  The leading open-source portfolio tracking, analytics, accounting, and tax reporting application with 2,085+ GitHub stars and AGPL-3.0 license . Runs entirely locally with SQLCipher-encrypted database — no third party holds your keys or financial history . Features balance tracking across exchanges, EVM/Bitcoin/Solana/Substrate chains, and manual entries; profit-and-loss reports with configurable accounting rules and cost-basis methods; a decoder turning raw on-chain transactions into readable DeFi protocol events; historical price lookups from multiple oracles; and an editable asset database of tens of thousands of tokens . **The de facto open-source alternative to Koinly and CoinTracker for privacy-conscious users** .
-
-
-
-- **[BittyTax](https://github.com/BittyTax/BittyTax)**  
-
-  Open-source crypto-currency tax calculator with 454+ GitHub stars, Python-based . Supports all popular wallets, exchanges, and explorers, with migration support from other crypto tax platforms . Actively maintained with recent commits as of late 2026 .
-
-
-
-- **[RP2](https://github.com/eprbell/rp2)**  
-
-  Privacy-focused, free, open-source cryptocurrency tax calculator for multiple countries with 368+ GitHub stars . Handles multiple coins/exchanges and computes long/short-term capital gains, cost bases, in/out lot relationships/fractioning, and account balances. Supports FIFO, LIFO, and HIFO cost basis methods, with output in IRS Form 8949 format. Features a programmable plugin architecture with the DaLI (Data Loader Interface) companion for input generation .
-
-
-
-- **[defitaxes](https://github.com/BittyTax/defitaxes)**  
-
-  Web application that lets DeFi users calculate their crypto-currency taxes using blockchain transaction data . Part of the BittyTax ecosystem.
-
-
-
-- **[hodl-totals](https://github.com/Daring-Crypto-Ventures/hodl-totals)**  
-
-  DIY crypto tax transaction tracker and profit/loss calculator with 32+ GitHub stars, TypeScript-based .
-
-
-
-- **[Cryptofolio](https://github.com/Xtrendence/Cryptofolio)**  
-
-  Open-source web, mobile, and desktop portfolio tracker with a self-hosted RESTful API, 338+ GitHub stars . Tracks cryptocurrency holdings across exchanges and wallets.
-
-
-
-- **[privatefolio](https://github.com/privatefolio/privatefolio)**  
-
-  Free and open-source portfolio tracker bringing all crypto assets into one place .
-
-
-
-- **[LlamaFolio API](https://github.com/llamafolio/llamafolio-api)**  
-
-  Open-source, privacy-conscious portfolio tracker by Llama Corp .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **blockhead** — Open-source interface for tracking, visualizing, and exploring EVM-based blockchains, on-chain accounts, smart contracts, transactions, DeFi apps, and web3 protocols in one place .
-
-- **hodlwatch** — Simple yet powerful web app for automatic cryptocurrency portfolio tracking .
-
-- **ethstaker.tax** — Easiest way to determine Ethereum staking income .
-
-- **coinfox** — Crypto coin portfolio manager for tracking Bitcoin and crypto coin investments .
-
-
-
-**Frameworks for building custom digital asset accounting solutions**: Combine **Rotki** for privacy-first portfolio tracking and tax reporting with encrypted local storage . Use **BittyTax** for comprehensive tax calculation across wallets, exchanges, and explorers . Deploy **RP2** for multi-jurisdiction tax reporting with Form 8949 output and configurable cost basis methods . For DeFi-specific tax needs, integrate **defitaxes** . Note that true enterprise crypto accounting with Big Four-auditor-approved compliance controls, cross-broker cost basis interchange, and multi-entity consolidation remains primarily commercial territory; open-source stacks provide strong privacy-preserving portfolio tracking and tax calculation foundations that require integration for complete enterprise accounting operations.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Digital asset accounting tools handle sensitive financial data and must comply with tax regulations (IRS, HMRC, ATO), accounting standards (GAAP, IFRS), and anti-money laundering requirements.
-
-- Self-hosted open-source solutions require proper security hardening, encrypted storage, and regular backups. Tax calculations vary by jurisdiction and should be validated by qualified tax professionals before filing.
-
-- The open-source ecosystem provides strong privacy-preserving portfolio tracking and tax calculation foundations, but enterprise-grade compliance certifications, cross-broker basis interchange, and multi-entity consolidation remain primarily commercial offerings.
-
-
+This repository tracks notable enterprise **SaaS platforms** and **open-source repositories** for **Digital Asset Accounting**. These specialized financial software tools enable enterprises, DAOs, hedge funds, CPAs, and web3 finance teams to reconcile cryptocurrency transactions, compute cost basis (FIFO, LIFO, HIFO, Specific ID), comply with IRS Form 1099-DA / Form 8949 regulations, and seamlessly sync digital asset activity into traditional general ledgers (ERP systems) such as **QuickBooks**, **NetSuite**, **Sage Intacct**, **SAP**, and **Xero**.
 
 ---
 
+## 📌 Table of Contents
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Integration & Frameworks](#️-integration--frameworks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📜 Disclaimer](#-disclaimer)
 
+---
 
-**Made for crypto accountants, tax professionals, CFOs, and digital asset finance teams.**  
+## 🏢 SaaS & Hosted Platforms
 
-Let's make digital asset accounting more open, transparent, and privacy-respecting.
+📈 **Sector Market Size & Structure**: The global digital asset accounting & crypto tax software market is estimated at **$2.8 Billion in 2026** (projected to reach **$8.5 Billion by 2030** at a CAGR of ~25.4%). The sector is **moderately fragmented**, spanning consumer tax filing apps, specialized DeFi calculators, and institutional subledgers, but is increasingly consolidating around top market-leading unicorns (TaxBit, Lukka, CoinTracker).
+
+Below is a comparative breakdown of commercial enterprise subledgers and digital asset accounting platforms, sorted by **Company Size / Valuation (Descending)**:
+
+| 🏆 Platform | 📝 Focus & Description | 💰 Starting Tier Price | 🎁 Free Tier / Free Trial Limits | 📊 Company Size / Valuation |
+| :--- | :--- | :--- | :--- | :--- |
+| **[TaxBit](https://taxbit.com/)** | Dominant enterprise crypto tax & accounting infrastructure connecting 500+ exchanges, wallets, and blockchains. Powers tax compliance for PayPal and Gemini. CARF & DAC8 compliant. | **$2,500/year** (Enterprise compliance baseline) | **No Free Tier**; 14-day guided enterprise trial demo upon request | **$1.33 Billion** Valuation ($235M Total Funding) |
+| **[Lukka](https://lukka.tech/)** | Institutional crypto data & accounting platform tracking 1.5M+ assets. Powers S&P Dow Jones crypto indices. Holds SOC 1/2 Type 2 & ISO 27001 certifications. | **$3,000/year** (Institutional subledger baseline) | **No Free Tier**; 14-day guided sales demo & sandbox testing | **$1.30 Billion** Valuation ($110M Total Funding) |
+| **[CoinTracker](https://www.cointracker.io/)** | Market-leading portfolio tracking & crypto tax filing software for individuals, CPAs, and enterprise institutions. | **$59/year** (Base tax tier starting price) | **Free Plan**: Up to 25 transactions & portfolio tracking forever | **$1.30 Billion** Valuation ($100M+ Total Funding) |
+| **[Ledgible](https://ledgible.io/)** | CPA & tax firm crypto subledger integrated with Thomson Reuters ONESOURCE, UltraTax CS, Lacerte, and CCH Axcess for IRS Form 1099-DA reporting. | **$49/year** (Individual/CPA tier starting price) | **30-Day Free Trial** (Full access to CPA portal & tax engine) | **$80.0 Million** Valuation ($20M+ Series A) |
+| **[Cryptio](https://cryptio.co/)** | Enterprise crypto accounting subledger with $3T+ transaction volume processed. Features Big Four auditor-approved controls and ERP sync (NetSuite, SAP, Xero, QuickBooks). | **$399/month** (Scale tier starting price) | **14-Day Free Trial** (Enterprise demo & API sandbox upon request) | **$71.2 Million** Funding / ~$15.8M ARR |
+| **[Bitwave](https://www.bitwave.io/)** | Enterprise Web3 accounting platform with native multi-entity cost basis calculation (FIFO, LIFO, HIFO) and NetSuite/Sage Intacct integration. Acquired Gilded in 2023. | **$1,500/month** (Enterprise baseline tier) | **14-Day Free Trial** (Guided enterprise onboarding demo) | **$50.0M–$100.0M** Est. Valuation ($22.25M Funding) |
+| **[Integral](https://integral.finance/)** | AI-native crypto accounting and treasury management platform for Web3 enterprises and DAOs. | **$299/month** (DAO & business starting price) | **14-Day Free Trial** (Full treasury & subledger access) | **€30.0 Million (~$33.0M)** Total Funding (€18M Series A) |
+| **[Entendre Finance](https://www.entendre.finance/)** | AI-powered Web3 accounting automation engine for enterprise digital assets. *(Acquired by MoonPay in June 2026)* | **$499/month** (Enterprise automation baseline) | **14-Day Free Trial** (Self-serve trial available prior to acquisition) | **$4.0 Million** Seed Funding *(Acquired by MoonPay)* |
+| **[SoftLedger](https://softledger.com/)** | Cloud-native general ledger with a built-in digital asset module (CryptoSync). Real-time consolidated multi-entity reporting without external subledger dependencies. | **$749/month** (Base GL platform; $1,375/mo for Digital Assets module) | **14-Day Free Trial** (Guided sales demo & sandbox access) | **Seed-Backed** ($1M–$5M Funding / Private ARR) |
+| **[Gilded](https://gilded.finance/)** | CPA-built crypto accounting tool rated #1 in QuickBooks App Store. Automated historical spot prices, cost basis, and AP/AR bill pay. *(Sub-brand of Bitwave)* | **$99/month** (QuickBooks subledger plan) | **14-Day Free Trial** (Full QuickBooks sync testing) | **Acquired** by Bitwave in September 2023 |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+🔓 **Privacy-First & Self-Hosted Open Source**: Self-hosted solutions enable individuals, developers, and privacy-conscious firms to process wallet histories locally without exposing private financial keys or transaction data to third-party cloud servers.
+
+Below are top open-source crypto tax calculators, portfolio trackers, and subledgers, sorted by **GitHub Star Count (Descending)**:
+
+| 🚀 Repository | ⭐️ GitHub Stars Badge | ⚡ Description & Core Capabilities |
+| :--- | :--- | :--- |
+| **[Rotki](https://github.com/rotki/rotki)** | [![GitHub stars](https://img.shields.io/github/stars/rotki/rotki?style=social&color=white)](https://github.com/rotki/rotki/stargazers) | The leading open-source portfolio tracking, analytics, accounting, and tax reporting application (AGPL-3.0). Local SQLCipher encrypted database, multi-chain EVM/Bitcoin/Solana support, and DeFi transaction decoding. |
+| **[BittyTax](https://github.com/BittyTax/BittyTax)** | [![GitHub stars](https://img.shields.io/github/stars/BittyTax/BittyTax?style=social&color=white)](https://github.com/BittyTax/BittyTax/stargazers) | Comprehensive Python-based cryptocurrency tax calculator supporting major exchanges, wallets, and explorers with automated capital gains calculation. |
+| **[RP2](https://github.com/eprbell/rp2)** | [![GitHub stars](https://img.shields.io/github/stars/eprbell/rp2?style=social&color=white)](https://github.com/eprbell/rp2/stargazers) | Privacy-focused multi-country crypto tax calculator computing long/short-term gains, cost bases (FIFO, LIFO, HIFO), and outputting directly in IRS Form 8949 format. |
+| **[Crypto Tax Calculator](https://github.com/caxete/crypto-tax-calculator)** | [![GitHub stars](https://img.shields.io/github/stars/caxete/crypto-tax-calculator?style=social&color=white)](https://github.com/caxete/crypto-tax-calculator/stargazers) | Comprehensive open-source tax calculation solution supporting leading wallets, exchanges, and blockchain explorers. |
+| **[Cryptofolio](https://github.com/Xtrendence/Cryptofolio)** | [![GitHub stars](https://img.shields.io/github/stars/Xtrendence/Cryptofolio?style=social&color=white)](https://github.com/Xtrendence/Cryptofolio/stargazers) | Open-source web, mobile, and desktop cryptocurrency portfolio tracker featuring a self-hosted RESTful API. |
+| **[Cryptowatch](https://github.com/alexanderepstein/cryptowatch)** | [![GitHub stars](https://img.shields.io/github/stars/alexanderepstein/cryptowatch?style=social&color=white)](https://github.com/alexanderepstein/cryptowatch/stargazers) | Lightweight CLI terminal application for tracking real-time cryptocurrency prices and account balances. |
+| **[Investments](https://github.com/cdump/investments)** | [![GitHub stars](https://img.shields.io/github/stars/cdump/investments?style=social&color=white)](https://github.com/cdump/investments/stargazers) | Privacy-focused investment portfolio manager and tax calculator handling multi-asset capital gains using FIFO/LIFO/HIFO rules. |
+| **[DaLI (RP2 Data Loader)](https://github.com/eprbell/dali-rp2)** | [![GitHub stars](https://img.shields.io/github/stars/eprbell/dali-rp2?style=social&color=white)](https://github.com/eprbell/dali-rp2/stargazers) | Data Loader Interface plugin framework for RP2 that automates input file generation from exchange REST APIs and CSV exports. |
+| **[Coinfox](https://github.com/vinniejames/coinfox)** | [![GitHub stars](https://img.shields.io/github/stars/vinniejames/coinfox?style=social&color=white)](https://github.com/vinniejames/coinfox/stargazers) | Desktop crypto coin portfolio manager for tracking Bitcoin, altcoin, and DeFi holdings. |
+| **[LlamaFolio API](https://github.com/llamafolio/llamafolio-api)** | [![GitHub stars](https://img.shields.io/github/stars/llamafolio/llamafolio-api?style=social&color=white)](https://github.com/llamafolio/llamafolio-api/stargazers) | Open-source, privacy-conscious portfolio tracking API engine created by Llama Corp. |
+| **[HODL Totals](https://github.com/Daring-Crypto-Ventures/hodl-totals)** | [![GitHub stars](https://img.shields.io/github/stars/Daring-Crypto-Ventures/hodl-totals?style=social&color=white)](https://github.com/Daring-Crypto-Ventures/hodl-totals/stargazers) | TypeScript-based DIY crypto tax transaction tracker and profit/loss calculator. |
+| **[DeFiTaxes](https://github.com/BittyTax/defitaxes)** | [![GitHub stars](https://img.shields.io/github/stars/BittyTax/defitaxes?style=social&color=white)](https://github.com/BittyTax/defitaxes/stargazers) | Web application for calculating cryptocurrency taxes directly from on-chain DeFi smart contract activity. |
+
+---
+
+## 🛠️ Integration & Frameworks
+
+Building custom digital asset accounting infrastructure? Consider combining these foundational tools:
+
+- 🔒 **Privacy & Local Storage**: Deploy **[Rotki](https://github.com/rotki/rotki)** for encrypted, local portfolio tracking without third-party API leaks.
+- 🧮 **Tax Engine**: Integrate **[BittyTax](https://github.com/BittyTax/BittyTax)** or **[RP2](https://github.com/eprbell/rp2)** to compute FIFO/LIFO/HIFO capital gains and generate IRS Form 8949 audit files.
+- 🔌 **Automated Data Ingestion**: Use **[DaLI](https://github.com/eprbell/dali-rp2)** to standardise raw REST API wallet data into subledger-ready formats.
+- ⛓️ **DeFi Analytics**: Leverage **[DeFiTaxes](https://github.com/BittyTax/defitaxes)** for on-chain liquidity pool and yield farming transaction classification.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! To add or update an entry:
+
+1. 🍴 **Fork** this repository.
+2. 📝 Add/update the relevant entry in `README.md` following the tabular formatting.
+3. 🔍 Ensure descriptions are factual, links lead to official sites, and pricing/star counts are accurate.
+4. 🚀 Open a **Pull Request** with a concise summary of changes.
+
+---
+
+## 📜 Disclaimer
+
+- This repository is a **community-curated index** for informational and educational purposes only.
+- Digital asset accounting software handles sensitive financial data and must adhere to regional tax laws (IRS, HMRC, ATO, CARF, DAC8), GAAP/IFRS standards, and anti-money laundering (AML) regulatory compliance.
+- Always consult a certified CPA or qualified tax attorney before submitting official tax disclosures or financial statements.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for Web3 Accountants, Tax Professionals, CFOs & Digital Asset Finance Teams</b>
+</p>
